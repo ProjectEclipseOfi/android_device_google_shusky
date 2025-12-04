@@ -26,7 +26,7 @@ $(call inherit-product, $(DEVICE_PATH)/$(DEVICE_CODENAME)/device-lineage.mk)
 # EclipseOS Artifact Whitelist
 # The build system flags these as invalid unless permitted manually.
 # ------------------------------------------------------------------------------
-PRODUCT_ARTIFACT_PATH_REQUIREMENT_WHITELIST += \
+PRODUCT_ARTIFACT_PATH_REQUIREMENT_ALLOWED_LIST += \
     system/etc/permissions/privapp-permissions-com.eclipseos.settings.xml \
     system/priv-app/EclipseOSLauncher/EclipseOSLauncher.apk \
     system/priv-app/EclipseOSSettings/EclipseOSSettings.apk
